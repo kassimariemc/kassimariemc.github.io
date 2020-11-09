@@ -1,0 +1,16 @@
+/* Footer */
+.bottom-red-line {
+  border: none;
+  background-color: #E76F51;
+  height: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #264653;
+}
+
+footer ul {
+  list-style-type: none;
+}

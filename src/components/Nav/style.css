@@ -1,0 +1,42 @@
+/* Header Section */
+
+.fixed-top {
+  background: #264653;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+  /* Kassi Stumb */
+  .navbar-brand {
+    font-size: 36px;
+    color: #eee;
+    background-color: #E76F51;
+    border: none;
+    padding: 20px;
+  }
+
+  .navbar-brand:focus {
+    outline: none !important;
+  }
+
+  /* Links */
+
+  .nav-link {
+    color: #E76F51 !important;
+    font-weight: bold;
+    font-size: 28px;
+    border: none;
+    background: transparent;
+  }
+  
+  .nav-link:hover {
+    color: #eee !important;
+  }
+
+  .nav-link:focus {
+    outline: none !important;
+  }

@@ -1,0 +1,27 @@
+/* Opener */
+.opener {
+  animation: stagger 500ms 900ms ease-in-out both;
+  background-color: rgba(238, 238, 238, 0.75);
+  margin-top: 50px;
+  height: 60vh;
+}
+
+.display-4 {
+  padding-top: 100px;
+}
+
+.lead {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+}
+
+/* Animations */
+@keyframes stagger {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateX(-8px) translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
