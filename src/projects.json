@@ -2,12 +2,58 @@
   {
     "id": 0,
     "name": "EventSafe",
-    "description": "A SOCIAL PLATFORM TO POST LOCAL EVENTS THAT ARE TAKING COVID-19 SAFETY PRECAUTIONS.",
+    "description": "A social platform to post local events that are taking COVID-19 safety precautions.",
     "deployURL": "https://project-2-team-3.herokuapp.com/",
     "repoURL": "https://github.com/kassimariemc/EventSafe",
-    "img": "./images/eventsafe.png",
+    "img": "../../images/eventsafe.png",
     "tech": [
-
+      "Sequelize",
+      "Express",
+      "Handlebars",
+      "Google Maps API"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Date Night at Home",
+    "description": "A simple app making it quick and easy to decide on dinner and a movie to enjoy in the safety of your home",
+    "deployURL": "https://kassimariemc.github.io/project-1-operation-date-night/",
+    "repoURL": "https://github.com/kassimariemc/project-1-operation-date-night",
+    "img": "../../images/date-night.png",
+    "tech": [
+      "jQuery",
+      "The Movie Database API",
+      "Google Places API"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Employee Directory",
+    "description": "View your entire employee directory with quick access to their information.",
+    "deployURL": "https://kassimariemc.github.io/user-directory/",
+    "repoURL": "https://github.com/kassimariemc/user-directory",
+    "img": "../../images/employee-directory.png",
+    "tech": [
+      "React App",
+      "JSX",
+      "React Props &amp; States",
+      "Class Components"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Budget Tracker",
+    "description": "Balance your accounts and track your expenses even when offline",
+    "deployURL": "https://budget-tracker-kassimariemc.herokuapp.com/",
+    "repoURL": "https://github.com/kassimariemc/budget-tracker",
+    "img": "../../images/budget-tracker.png",
+    "tech": [
+      "Service Worker",
+      "IndexDB",
+      "Web Manifest",
+      "Chart.js",
+      "MongoDb with Mongoose Schema"
     ]
   }
+  
 ]

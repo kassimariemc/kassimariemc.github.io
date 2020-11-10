@@ -1,30 +1,15 @@
-/* Portfolio Page */
-.card-img:hover {
-  transform: scale(1.04);
-  text-decoration: none;
+.section-border {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(238, 238, 238, 0.75);
+  padding: 20px;
+  border: 1px solid rgb(189, 183, 183);
+  border-radius: 5px;
 }
 
-.card-body-img {
-  background-color: #E76F51;
-  margin-top: -12vh;
-  height: 80px;
-}
-
-.card-title {
-  font-size: 28px;
-  font-weight: bold;
-  color: #eee;
-  text-align: center;
-}
-
-.card-description {
-  background-color: transparent;
+/* Lines below headings */
+hr {
   border: none;
-}
-
-.card-text {
-  padding: 25px;
-  font-size: 24px;
-  font-style: italic;
-  text-transform: uppercase;
+  background-color: rgb(160, 155, 155);
+  height: 2px;
 }

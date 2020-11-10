@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Background from '../images/background.jpg';
+import Background from '../../images/background.jpg';
 
 function FigureWrapper() {
   return (
