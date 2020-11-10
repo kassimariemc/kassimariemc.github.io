@@ -3,15 +3,19 @@ import "./App.css";
 import Nav from "./components/Nav";
 import FigureWrapper from "./components/FigureWrapper";
 import Jumbotron from "./components/Jumbotron";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="body">
       <Nav />
-      <FigureWrapper>
+      {/* <FigureWrapper> */}
         <Jumbotron />
-      </FigureWrapper>
+        <Portfolio />
+        <Contact />
+      {/* </FigureWrapper> */}
       <Footer />
     </div>
   );

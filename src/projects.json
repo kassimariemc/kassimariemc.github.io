@@ -1,0 +1,13 @@
+[
+  {
+    "id": 0,
+    "name": "EventSafe",
+    "description": "A SOCIAL PLATFORM TO POST LOCAL EVENTS THAT ARE TAKING COVID-19 SAFETY PRECAUTIONS.",
+    "deployURL": "https://project-2-team-3.herokuapp.com/",
+    "repoURL": "https://github.com/kassimariemc/EventSafe",
+    "img": "./images/eventsafe.png",
+    "tech": [
+
+    ]
+  }
+]
