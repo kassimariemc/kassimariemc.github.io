@@ -4,7 +4,8 @@ import "./style.css";
 function Jumbotron() {
   // Typewritter effect
   const words = ['Web developer...', 'Student...', 'Problem solver...', 'Planner...', 'Beer drinker...', 'Hiker...', 'List checker...'];
-  const typeEffectEl = document.querySelector('#type-effect');
+  // const typeEffectEl = document.querySelector('#type-effect');
+  let typeEffectEl = '';
   let letterIndex = 0;
   let wordIndex = 0;
 
@@ -13,7 +14,7 @@ function Jumbotron() {
   function initTyping() {
     if (wordIndex < words.length) {
       window.setTimeout(() => {
-        typeEffectEl.innerHTML = '';
+        typeEffectEl = '';
         letterIndex = 0;
         printLetters(words[wordIndex]);
       }, 1000);
@@ -27,7 +28,7 @@ function Jumbotron() {
   function printLetters(word) {
     window.setTimeout(() => {
       if (letterIndex < word.length) {
-        typeEffectEl.innerHTML += word[letterIndex];
+        typeEffectEl += word[letterIndex];
         letterIndex++;
         printLetters(word);
       } else {
@@ -43,7 +44,7 @@ function Jumbotron() {
         <div className="col-lg-12">
           <div className="jumbotron text-center opener">
             <h1 className="display-4">Kassi Stumb</h1>
-            <p className="lead" id="type-effect"></p>
+              <p className="lead">{typeEffectEl}</p>
           </div>
         </div>
       </div>

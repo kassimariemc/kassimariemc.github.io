@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
 
 function Nav() {
   function scrollToTop() {
@@ -30,7 +29,7 @@ function Nav() {
       <div className="container">
 
         {/* <!-- Kassi Stumb --> */}
-      <button className="navbar-brand" type="button" id="logo" onclick={scrollToTop()}>Kassi <br /> Stumb</button>
+      <button className="navbar-brand" type="button" id="logo" onClick={scrollToTop()}>Kassi <br /> Stumb</button>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -40,13 +39,13 @@ function Nav() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <button className="nav-link" type="button" onclick={scrollToTop()}><Link to="/about">About Me</Link></button>
+              <button className="nav-link" type="button" onClick={scrollToTop()}>About Me</button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" type="button" onclick={scrollToPortfolio(x)}><Link to="/portfolio">Portfolio</Link></button>
+              <button className="nav-link" type="button" onClick={scrollToPortfolio(x)}>Portfolio</button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" type="button" onclick={scrollToContact(x)}><Link to="/contact">Contact</Link></button>
+              <button className="nav-link" type="button" onClick={scrollToContact(x)}>Contact</button>
             </li>
           </ul>
         </div>

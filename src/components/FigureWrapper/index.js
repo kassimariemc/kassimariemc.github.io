@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
+import Background from '../images/background.jpg';
 
 function FigureWrapper() {
   return (
-    <figure>
-      
-    </figure>
+    <div className="figure" style={ { backgroundImage:`url(${Background})` }}>
+    </div>
   );
 }
 
