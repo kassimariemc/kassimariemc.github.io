@@ -13,7 +13,7 @@ function Footer() {
                 className="fa fa-github fa-2x"></i></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kassi-s-5525441b0/"><i
+              <a className="nav-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kassi-stumb/"><i
                 className="fa fa-linkedin-square fa-2x"></i></a>
             </li>
           </ul>

@@ -9,19 +9,19 @@ function Cards(props) {
         <div className="card-body text-center">
           <p className="card-text">{props.description}</p>
           <p className="tech-info">Technologies Included:<br />
-            {/* {props.tech.map(techItem => (
-              <i className="fa fa-cog"></i> techItem <br />
-            ))} */}
+            {props.tech.map(techItem => (
+              <div><i className="fa fa-cog"></i> {techItem} <br /></div>
+            ))}
           </p>
-          <a href={`${props.deployURL}`} target="_blank" rel="noreferrer"><button type="button"
-            className="btn btn-lg" id="uni-btn">Deployed Project</button></a>
+          {props.deployURL !== "" ? <a href={`${props.deployURL}`} target="_blank" rel="noreferrer"><button type="button"
+            className="btn btn-lg" id="uni-btn">Deployed Project</button></a> : ""}
           <a href={`${props.repoURL}`} target="_blank" rel="noreferrer"><button type="button"
             className="btn btn-lg" id="uni-btn">GitHub Repo</button></a>
         </div>
       </div>
     </div>
     <div className="col mb-4 mt-4">
-      <a className="card card-img" href={`${props.deployURL}`} target="_blank" rel="noreferrer">
+      <a className="card card-img" href={props.deployURL !== "" ? props.deployURL : props.repoURL} target="_blank" rel="noreferrer">
         <img src={props.img} className="card-img-top" alt={`screenshot of ${props.name} website`} />
         <div className="card-body card-body-img text-center">
           <h5 className="card-title">{props.name}</h5>

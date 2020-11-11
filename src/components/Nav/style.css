@@ -3,7 +3,7 @@
 .fixed-top {
   background: #264653;
   border: none;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 
 .navbar {
