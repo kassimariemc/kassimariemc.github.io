@@ -5,6 +5,7 @@ function Nav() {
   function scrollToTop() {
     window.scroll({ top: 0, left: 0, behavior: 'smooth' });
   }
+  
   function scrollToPortfolio(x) {
     if (x.matches) { // If media query matches
       window.scroll({ top: 2500, left: 0, behavior: 'smooth' });
@@ -16,6 +17,7 @@ function Nav() {
       window.scroll({ top: 1500, left: 0, behavior: 'smooth' });
     }
   }
+  
   function scrollToContact(x) {
     window.scroll({ top: 15000, left: 0, behavior: 'smooth' });
   }

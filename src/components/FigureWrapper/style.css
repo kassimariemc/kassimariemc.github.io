@@ -1,5 +1,7 @@
  /* Background Image */
  .figure {
+  display: block !important;
+  background: url('../../images/background.jpg');
   margin-top: 100px;
   margin-bottom: 0;
   background-position: center;

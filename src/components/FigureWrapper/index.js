@@ -1,10 +1,9 @@
 import React from "react";
 import "./style.css";
-import Background from '../../images/background.jpg';
 
-function FigureWrapper() {
+function FigureWrapper(props) {
   return (
-    <div className="figure" style={ { backgroundImage:`url(${Background})` }}>
+    <div className="figure">{props.children}
     </div>
   );
 }

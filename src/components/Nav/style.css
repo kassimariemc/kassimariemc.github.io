@@ -12,7 +12,7 @@
 
   /* Kassi Stumb */
   .navbar-brand {
-    font-size: 36px;
+    font-size: 36px !important;
     color: #eee;
     background-color: #E76F51;
     border: none;
@@ -40,3 +40,19 @@
   .nav-link:focus {
     outline: none !important;
   }
+
+  /* Media Queries */
+
+@media screen and (max-width: 767px) {
+
+  .navbar-brand {
+    margin: 0 auto;
+    background-color: #264653;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    text-align: right;
+    padding-right: 10px;
+  }
+}

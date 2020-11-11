@@ -22,7 +22,7 @@ function Cards(props) {
     </div>
     <div className="col mb-4 mt-4">
       <a className="card card-img" href={`${props.deployURL}`} target="_blank" rel="noreferrer">
-        <img src={`${props.img}`} className="card-img-top" alt={`screenshot of ${props.name} website`} />
+        <img src={props.img} className="card-img-top" alt={`screenshot of ${props.name} website`} />
         <div className="card-body card-body-img text-center">
           <h5 className="card-title">{props.name}</h5>
         </div>
