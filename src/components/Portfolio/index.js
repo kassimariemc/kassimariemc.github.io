@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './style.css';
-import Cards from "../Cards";
+import CardLeft from "../CardLeft";
+import CardRight from "../CardRight";
 import Projects from "../../projects.json";
 
 class Portfolio extends Component  {
@@ -27,7 +28,7 @@ class Portfolio extends Component  {
             {/* <!-- Begin Image Links --> */}
             <div className="row row-cols-1 row-cols-md-2">
               {this.state.Projects.map(project => (
-                <Cards
+                <CardLeft
                   key={project.id}
                   name={project.name}
                   description={project.description}
