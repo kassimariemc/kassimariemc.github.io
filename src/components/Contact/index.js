@@ -4,10 +4,10 @@ import "./style.css";
 function Contact() {
   return (
     // <!-- Contact Section-->
-    <div className="container" id="contact">
+    <main className="container" id="contact">
       <div className="row">
 
-        <div className="col-lg-12 section-border">
+        <section className="col-lg-12 section-border">
           <div className="page-header">
             <h1 className="text-center">I'd love to hear from you!</h1>
           </div>
@@ -21,10 +21,10 @@ function Contact() {
                 Me</button></a>
           </div>
 
-        </div>
+        </section>
 
       </div>
-    </div>
+    </main>
   );
 }
 

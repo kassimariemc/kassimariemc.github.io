@@ -11,10 +11,10 @@ class Portfolio extends Component  {
   render() {
     return (
       // <!-- Portfolio Section-->
-      <div className="container" id="portfolio">
+      <main className="container" id="portfolio">
         <div className="row">
   
-          <div className="col-lg-12 section-border">
+          <section className="col-lg-12 section-border">
   
             <div className="page-header">
               <h1>Check Out My Work</h1>
@@ -38,11 +38,11 @@ class Portfolio extends Component  {
                 />
               ))}
             </div>
-          </div>
+          </section>
   
         </div>
   
-      </div>
+      </main>
     );
   }
 }

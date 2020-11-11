@@ -41,13 +41,13 @@ function Nav() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <button className="nav-link" type="button" onClick={scrollToTop()}>About Me</button>
+              <button className="nav-link" type="button" onClick={scrollToTop}>About Me</button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" type="button" onClick={scrollToPortfolio(x)}>Portfolio</button>
+              <button className="nav-link" type="button" onClick={() => scrollToPortfolio(x)}>Portfolio</button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" type="button" onClick={scrollToContact(x)}>Contact</button>
+              <button className="nav-link" type="button" onClick={() => scrollToContact(x)}>Contact</button>
             </li>
           </ul>
         </div>
