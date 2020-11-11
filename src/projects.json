@@ -54,6 +54,63 @@
       "Chart.js",
       "MongoDb with Mongoose Schema"
     ]
+  },
+  {
+    "id": 4,
+    "name": "Workout Tracker",
+    "description": "Track your daily workouts with this simple fitness app.",
+    "deployURL": "https://workout-tracker-kassimariemc.herokuapp.com/",
+    "repoURL": "https://github.com/kassimariemc/workout-tracker",
+    "img": "../../images/workout-tracker.png",
+    "tech": [
+      "Node.js",
+      "Express",
+      "Object Document Mapping",
+      "MongoDb with Mongoose Schema"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Employee Template Engine",
+    "description": "A Node CLI to generate a simple HTML page containing employee information for a software engineering team",
+    "deployURL": "",
+    "repoURL": "https://github.com/kassimariemc/employee-template-engine",
+    "img": "../../images/emloyee-template.png",
+    "tech": [
+      "Node.js",
+      "JavaScript",
+      "Inquirer NPM Package",
+      "Testing with Jest"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Burger Logger",
+    "description": "Keep track of the burgers you'd like to eat and ones that you've already devoured!",
+    "deployURL": "https://kassimariemc-burger.herokuapp.com/",
+    "repoURL": "https://github.com/kassimariemc/burger",
+    "img": "../../images/burger.png",
+    "tech": [
+      "Node.js",
+      "Express",
+      "Express Handlebars",
+      "ORM",
+      "MVC Patter Design",
+      "MySQL"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Weather Dashboard",
+    "description": "A simple weather app to search current and 5-day forecast for any given city",
+    "deployURL": "https://kassimariemc.github.io/weather-dashboard/",
+    "repoURL": "https://github.com/kassimariemc/weather-dashboard",
+    "img": "../../images/weather-dashboard.png",
+    "tech": [
+      "jQuery",
+      "OpenWeather API",
+      "Local Storage Componenets"
+    ]
   }
   
 ]
