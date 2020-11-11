@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import FigureWrapper from "./components/FigureWrapper";
 import Jumbotron from "./components/Jumbotron";
+import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <FigureWrapper>
         <Jumbotron />
+        <About />
         <Portfolio />
         <Contact />
       </FigureWrapper>

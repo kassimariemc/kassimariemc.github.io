@@ -14,9 +14,9 @@ function Cards(props) {
             ))} */}
           </p>
           <a href={`${props.deployURL}`} target="_blank" rel="noreferrer"><button type="button"
-            className="btn btn-lg" id="uni-btn">Deployed Project</button></a><a
-              href={`${props.repoURL}`} target="_blank" rel="noreferrer"><button type="button"
-                className="btn btn-lg" id="uni-btn">GitHub Repo</button></a>
+            className="btn btn-lg" id="uni-btn">Deployed Project</button></a>
+          <a href={`${props.repoURL}`} target="_blank" rel="noreferrer"><button type="button"
+            className="btn btn-lg" id="uni-btn">GitHub Repo</button></a>
         </div>
       </div>
     </div>
