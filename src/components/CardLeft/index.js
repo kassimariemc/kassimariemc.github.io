@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 function CardLeft(props) {
+
   return (
     <div>
       <div className="col mb-4 mt-4">

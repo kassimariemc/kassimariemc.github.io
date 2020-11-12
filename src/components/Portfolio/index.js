@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './style.css';
 import CardLeft from "../CardLeft";
 import CardRight from "../CardRight";
-import Projects from "../../projects.json";
+import Projects from "../../projects";
 
 class Portfolio extends Component  {
   state = {

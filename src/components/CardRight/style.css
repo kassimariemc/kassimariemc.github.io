@@ -18,8 +18,8 @@
 }
 
 .card-description {
-  background-color: transparent;
-  border: none;
+  background-color: transparent !important;
+  border: none !important;
 }
 
 .card-text {

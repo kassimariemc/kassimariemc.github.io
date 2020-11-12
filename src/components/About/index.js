@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import pic from "../../images/kassi-pic.jpg";
+import resume from "../../images/KStumb_Resume_Web_Online.jpg";
 
 function About(props) {
   return (
@@ -20,7 +22,7 @@ function About(props) {
           <div className="row">
             {/* <!-- Bio and Photo --> */}
             <div className="col-md-6">
-              <img className="bio-image" src="../../images/kassi-pic.jpg" alt="Kassi Stumb" />
+              <img className="bio-image" src={pic} alt="Kassi Stumb" />
               <p className="bio-font">
                 Hey there! <i className="fa fa-hand-paper-o"></i> My name is Kassi Stumb and I'm a Triangle-based event
                 manager with web programming and development skills. I graudated from the heavenly University of North
@@ -52,7 +54,7 @@ function About(props) {
                       </button>
                     </div>
                     <div className="modal-body">
-                      <img src="../../images/KStumb_Resume_Web_Online.jpg" width="100%" alt="Resume"></img>
+                      <img src={resume} width="100%" alt="Resume"></img>
                     </div>
                   </div>
                 </div>

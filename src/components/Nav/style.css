@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  padding: 0;
+  padding: 0 !important;
 }
 
   /* Kassi Stumb */
@@ -16,7 +16,7 @@
     color: #eee;
     background-color: #E76F51;
     border: none;
-    padding: 20px;
+    padding: 20px !important;
   }
 
   .navbar-brand:focus {

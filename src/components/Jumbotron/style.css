@@ -1,7 +1,7 @@
 /* Opener */
 .opener {
   animation: stagger 500ms 900ms ease-in-out both;
-  background-color: rgba(238, 238, 238, 0.75);
+  background-color: rgba(238, 238, 238, 0.75) !important;
   margin-top: 50px;
   height: 60vh;
 }
