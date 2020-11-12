@@ -1,48 +1,58 @@
 import React, { Component } from "react";
 import './style.css';
-import CardLeft from "../CardLeft";
-import CardRight from "../CardRight";
+import CardDescription from "../CardDescription";
+import CardPhoto from "../CardPhoto";
 import Projects from "../../projects";
 
-class Portfolio extends Component  {
+class Portfolio extends Component {
   state = {
     Projects
   }
+
+  evenProjects = this.state.Projects.filter(project => project.id % 2 === 0);
+  oddProjects = this.state.Projects.filter(project => project.id % 2 !== 0);
 
   render() {
     return (
       // <!-- Portfolio Section-->
       <main className="container" id="portfolio">
         <div className="row">
-  
+
           <section className="col-lg-12 section-border">
-  
+
             <div className="page-header">
               <h1>Check Out My Work</h1>
             </div>
-  
+
             <div className="page-header">
               <hr />
             </div>
-  
+
             {/* <!-- Begin Image Links --> */}
-            <div className="row row-cols-1 row-cols-md-2">
-              {this.state.Projects.map(project => (
-                <CardLeft
+            {this.state.Projects.map(project => (
+              <div className="row row-cols-1 row-cols-md-2">
+                <CardDescription
                   key={project.id}
                   name={project.name}
                   description={project.description}
                   deployURL={project.deployURL}
                   repoURL={project.repoURL}
-                  img={project.img}
                   tech={project.tech}
                 />
-              ))}
-            </div>
+                <CardPhoto
+                  key={project.id}
+                  name={project.name}
+                  deployURL={project.deployURL}
+                  repoURL={project.repoURL}
+                  img={project.img}
+                />
+              </div>
+            ))}
+
           </section>
-  
+
         </div>
-  
+
       </main>
     );
   }
