@@ -29,7 +29,8 @@ class Portfolio extends Component {
             </div>
 
             {/* <!-- Begin Image Links --> */}
-            {this.state.Projects.map(project => (
+            {this.state.Projects.map(project => {
+              return project.id % 2 === 0 ? 
               <div className="row row-cols-1 row-cols-md-2">
                 <CardDescription
                   key={project.id}
@@ -40,20 +41,35 @@ class Portfolio extends Component {
                   tech={project.tech}
                 />
                 <CardPhoto
-                  key={project.id}
                   name={project.name}
                   deployURL={project.deployURL}
                   repoURL={project.repoURL}
                   img={project.img}
                 />
+              </div> : 
+              <div className="row row-cols-1 row-cols-md-2">
+                <CardPhoto
+                  name={project.name}
+                  deployURL={project.deployURL}
+                  repoURL={project.repoURL}
+                  img={project.img}
+                />
+                <CardDescription
+                  key={project.id}
+                  name={project.name}
+                  description={project.description}
+                  deployURL={project.deployURL}
+                  repoURL={project.repoURL}
+                  tech={project.tech}
+                />
               </div>
-            ))}
+            })}
 
           </section>
 
         </div>
 
-      </main>
+      </main >
     );
   }
 }

@@ -3,9 +3,9 @@ import dateNightImg from "./images/date-night.png";
 import employeeDirImg from "./images/employee-directory.png";
 import budgetImg from "./images/budget-tracker.png";
 import fitnessImg from "./images/workout-tracker.png";
-import employeeTempImg from "./images/employee-template.png";
+// import employeeTempImg from "./images/employee-template.png";
 import burgerImg from "./images/burger.png";
-import weatherImg from "./images/weather-dashboard.png";
+// import weatherImg from "./images/weather-dashboard.png";
 
 const Projects = [
   {
@@ -78,22 +78,22 @@ const Projects = [
       "MongoDb with Mongoose Schema"
     ]
   },
+  // {
+  //   "id": 5,
+  //   "name": "Employee Template Engine",
+  //   "description": "A Node CLI to generate a simple HTML page containing employee information for a software engineering team",
+  //   "deployURL": "",
+  //   "repoURL": "https://github.com/kassimariemc/employee-template-engine",
+  //   "img": employeeTempImg,
+  //   "tech": [
+  //     "Node.js",
+  //     "JavaScript",
+  //     "Inquirer NPM Package",
+  //     "Testing with Jest"
+  //   ]
+  // },
   {
     "id": 5,
-    "name": "Employee Template Engine",
-    "description": "A Node CLI to generate a simple HTML page containing employee information for a software engineering team",
-    "deployURL": "",
-    "repoURL": "https://github.com/kassimariemc/employee-template-engine",
-    "img": employeeTempImg,
-    "tech": [
-      "Node.js",
-      "JavaScript",
-      "Inquirer NPM Package",
-      "Testing with Jest"
-    ]
-  },
-  {
-    "id": 6,
     "name": "Burger Logger",
     "description": "Keep track of the burgers you'd like to eat and ones that you've already devoured!",
     "deployURL": "https://kassimariemc-burger.herokuapp.com/",
@@ -107,20 +107,20 @@ const Projects = [
       "MVC Patter Design",
       "MySQL"
     ]
-  },
-  {
-    "id": 7,
-    "name": "Weather Dashboard",
-    "description": "A simple weather app to search current and 5-day forecast for any given city",
-    "deployURL": "https://kassimariemc.github.io/weather-dashboard/",
-    "repoURL": "https://github.com/kassimariemc/weather-dashboard",
-    "img": weatherImg,
-    "tech": [
-      "jQuery",
-      "OpenWeather API",
-      "Local Storage Componenets"
-    ]
   }
+  // {
+  //   "id": 7,
+  //   "name": "Weather Dashboard",
+  //   "description": "A simple weather app to search current and 5-day forecast for any given city",
+  //   "deployURL": "https://kassimariemc.github.io/weather-dashboard/",
+  //   "repoURL": "https://github.com/kassimariemc/weather-dashboard",
+  //   "img": weatherImg,
+  //   "tech": [
+  //     "jQuery",
+  //     "OpenWeather API",
+  //     "Local Storage Componenets"
+  //   ]
+  // }
   
 ]
 

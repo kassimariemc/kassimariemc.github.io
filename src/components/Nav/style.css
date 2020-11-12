@@ -46,7 +46,7 @@
 @media screen and (max-width: 767px) {
 
   .navbar-brand {
-    margin: 0 auto;
+    margin: 0 auto !important;
     background-color: #264653;
     text-align: center;
   }
