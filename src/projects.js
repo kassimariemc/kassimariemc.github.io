@@ -3,9 +3,7 @@ import dateNightImg from "./images/date-night.png";
 import employeeDirImg from "./images/employee-directory.png";
 import budgetImg from "./images/budget-tracker.png";
 import fitnessImg from "./images/workout-tracker.png";
-// import employeeTempImg from "./images/employee-template.png";
 import burgerImg from "./images/burger.png";
-// import weatherImg from "./images/weather-dashboard.png";
 
 const Projects = [
   {

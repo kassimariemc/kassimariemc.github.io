@@ -34,7 +34,6 @@ function About(props) {
               </p>
             </div>
 
-
             <div className="col-md-6">
               {/* <!-- Resume Button --> */}
               <div className="row">

@@ -9,15 +9,11 @@ class Portfolio extends Component {
     Projects
   }
 
-  evenProjects = this.state.Projects.filter(project => project.id % 2 === 0);
-  oddProjects = this.state.Projects.filter(project => project.id % 2 !== 0);
-
   render() {
     return (
       // <!-- Portfolio Section-->
       <main className="container" id="portfolio">
         <div className="row">
-
           <section className="col-lg-12 section-border">
 
             <div className="page-header">
@@ -66,9 +62,7 @@ class Portfolio extends Component {
             })}
 
           </section>
-
         </div>
-
       </main >
     );
   }
