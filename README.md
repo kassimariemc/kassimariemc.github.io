@@ -10,7 +10,7 @@ Technologies used
 * Props and States
 * Class Components
 
-Deployed Application: [https://kassimariemc.github.io/react-portfolio/](https://kassimariemc.github.io/react-portfolio/)
+Deployed Application: [https://kassimariemc.github.io/](https://kassimariemc.github.io/)
 
 ## License
 
