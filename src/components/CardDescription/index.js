@@ -8,11 +8,11 @@ function CardDescription(props) {
       <div className="card card-description">
         <div className="card-body text-center">
           <p className="card-text">{props.description}</p>
-          <p className="tech-info">Technologies Included:<br />
+          <div className="tech-info">Technologies Included:<br />
             {props.tech.map(techItem => (
-              <div key={props.id}><i className="fa fa-cog" key={props.id}></i> {techItem} <br key={props.id} /></div>
+              <div key={techItem}><i className="fa fa-cog"></i> {techItem} <br /></div>
             ))}
-          </p>
+          </div>
           {props.deployURL !== "" ? <a href={`${props.deployURL}`} target="_blank" rel="noreferrer"><button type="button"
             className="btn btn-lg" id="uni-btn">Deployed Project</button></a> : ""}
           <a href={`${props.repoURL}`} target="_blank" rel="noreferrer"><button type="button"

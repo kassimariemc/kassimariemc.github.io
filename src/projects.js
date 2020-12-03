@@ -1,5 +1,6 @@
 import eventSafeImg from "./images/eventsafe.png";
 import dateNightImg from "./images/date-night.png";
+import trailshareImg from "./images/trailshare-screen-shot.png";
 import employeeDirImg from "./images/employee-directory.png";
 import budgetImg from "./images/budget-tracker.png";
 import fitnessImg from "./images/workout-tracker.png";
@@ -8,6 +9,19 @@ import burgerImg from "./images/burger.png";
 const Projects = [
   {
     "id": 0,
+    "name": "TRAILSHARE",
+    "description": "A social forward and interactive application for getting outdoors. Find, create, rate, comment and favorite hiking trails in your area. ",
+    "deployURL": "https://project-3-hiking-app.herokuapp.com/",
+    "repoURL": "https://github.com/kassimariemc/hiking-app",
+    "img": trailshareImg,
+    "tech": [
+      "MERN",
+      "Amazon S3 Cloud Storage",
+      "Google Maps API"
+    ]
+  },
+  {
+    "id": 1,
     "name": "EventSafe",
     "description": "A social platform to post local events that are taking COVID-19 safety precautions.",
     "deployURL": "https://project-2-team-3.herokuapp.com/",
@@ -21,7 +35,7 @@ const Projects = [
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Date Night at Home",
     "description": "A simple app making it quick and easy to decide on dinner and a movie to enjoy in the safety of your home",
     "deployURL": "https://kassimariemc.github.io/project-1-operation-date-night/",
@@ -34,7 +48,7 @@ const Projects = [
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Employee Directory",
     "description": "View your entire employee directory with quick access to their information.",
     "deployURL": "https://kassimariemc.github.io/user-directory/",
@@ -48,7 +62,7 @@ const Projects = [
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Budget Tracker",
     "description": "Balance your accounts and track your expenses even when offline",
     "deployURL": "https://budget-tracker-kassimariemc.herokuapp.com/",
@@ -63,7 +77,7 @@ const Projects = [
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Workout Tracker",
     "description": "Track your daily workouts with this simple fitness app.",
     "deployURL": "https://workout-tracker-kassimariemc.herokuapp.com/",
@@ -91,7 +105,7 @@ const Projects = [
   //   ]
   // },
   {
-    "id": 5,
+    "id": 6,
     "name": "Burger Logger",
     "description": "Keep track of the burgers you'd like to eat and ones that you've already devoured!",
     "deployURL": "https://kassimariemc-burger.herokuapp.com/",
