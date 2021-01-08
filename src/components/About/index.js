@@ -83,7 +83,7 @@ function About(props) {
                     <strong><u>BACK END</u></strong>
                   </p>
                   <p className="tech-info">
-                    <i className="fa fa-connectdevelop"></i>Node.js<br /><i className="fa fa-connectdevelop"></i>Express<br /><i
+                  <i className="fa fa-connectdevelop"></i>PHP<br /><i className="fa fa-connectdevelop"></i>Node.js<br /><i className="fa fa-connectdevelop"></i>Express<br /><i
                       className="fa fa-connectdevelop"></i>ES6<br /><i className="fa fa-connectdevelop"></i>MySQL<br /><i
                       className="fa fa-connectdevelop"></i>Sequelize<br /><i className="fa fa-connectdevelop"></i>MongoDB<br />
                     <i className="fa fa-connectdevelop"></i>IndexDB<br /><i className="fa fa-connectdevelop"></i>Service Worker<br /><i className="fa fa-connectdevelop"></i>MERN
