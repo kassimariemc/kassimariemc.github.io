@@ -17,6 +17,7 @@ function Footer() {
                 className="fa fa-linkedin-square fa-2x"></i></a>
             </li>
           </ul>
+          <div className="container-fluid text-center text-muted">Copyright &#169; Kassi Stumb</div>
         </footer>
     </div>
   );

@@ -75,8 +75,10 @@ function About(props) {
                   </p>
                   <p className="tech-info">
                     <i className="fa fa-cog"></i>HTML<br /><i className="fa fa-cog"></i>CSS<br /><i
-                      className="fa fa-cog"></i>JavaScript<br /><i className="fa fa-cog"></i>jQuery<br /><i
-                      className="fa fa-cog"></i>Bootstrap<br /><i className="fa fa-cog"></i>AJAX<br /><i className="fa fa-cog"></i>React
+                      className="fa fa-cog"></i>Bootstrap<br /><i
+                      className="fa fa-cog"></i>JavaScript<br /><i
+                      className="fa fa-cog"></i>ES6<br /><i className="fa fa-cog"></i>JQuery<br /><i className="fa fa-cog"></i>AJAX<br /><i
+                      className="fa fa-cog"></i>RESTful APIs<br /><i className="fa fa-cog"></i>React<br /><i className="fa fa-cog"></i>AWS S3
                   </p>
                 </div>
                 <div className="col-md-6 about-me-border">
@@ -84,10 +86,9 @@ function About(props) {
                     <strong><u>BACK END</u></strong>
                   </p>
                   <p className="tech-info">
-                  <i className="fa fa-connectdevelop"></i>PHP<br /><i className="fa fa-connectdevelop"></i>Node.js<br /><i className="fa fa-connectdevelop"></i>Express<br /><i
-                      className="fa fa-connectdevelop"></i>ES6<br /><i className="fa fa-connectdevelop"></i>MySQL<br /><i
-                      className="fa fa-connectdevelop"></i>Sequelize<br /><i className="fa fa-connectdevelop"></i>MongoDB<br />
-                    <i className="fa fa-connectdevelop"></i>IndexDB<br /><i className="fa fa-connectdevelop"></i>Service Worker<br /><i className="fa fa-connectdevelop"></i>MERN
+                  <i className="fa fa-connectdevelop"></i>PHP<br /><i className="fa fa-connectdevelop"></i>Node<br /><i className="fa fa-connectdevelop"></i>Express<br /><i
+                      className="fa fa-connectdevelop"></i>Passport<br /><i className="fa fa-connectdevelop"></i>MySQL with Sequelize<br /><i className="fa fa-connectdevelop"></i>MongoDB with Mongoose<br />
+                    <i className="fa fa-connectdevelop"></i>IndexedDB<br /><i className="fa fa-connectdevelop"></i>Service Worker<br /><i className="fa fa-connectdevelop"></i>MERN Stack
                   </p>
                 </div>
               </div>
