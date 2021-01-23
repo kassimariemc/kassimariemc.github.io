@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import pic from "../../images/kassi-pic.jpg";
-import resume from "../../images/KStumb_Resume_Web_Online.jpg";
+import resume from "../../images/KStumb_Resume.pdf";
 
 function About(props) {
   return (
@@ -38,12 +38,13 @@ function About(props) {
               {/* <!-- Resume Button --> */}
               <div className="row">
                 <div className="col-md-12 about-me-border">
+                  <a href={resume} download="KStumb_Resume">
                   <button type="button" className="btn btn-lg btn-block" data-toggle="modal" data-target="#exampleModal"
-                    id="resume">Resume</button>
+                    id="resume"><i className="fa fa-download"></i> Download Resume</button></a>
                 </div>
               </div>
 
-              <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              {/* <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div className="modal-dialog modal-lg">
                   <div className="modal-content">
@@ -57,7 +58,7 @@ function About(props) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- Languages --> */}
               <div className="row">
                 <div className="col-md-12 about-me-border">

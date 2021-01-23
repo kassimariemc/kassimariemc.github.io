@@ -31,7 +31,7 @@ function Nav() {
       <div className="container">
 
         {/* <!-- Kassi Stumb --> */}
-      <button className="navbar-brand" type="button" id="logo" onClick={scrollToTop()}>Kassi <br /> Stumb</button>
+      <button className="navbar-brand" type="button" id="logo" onClick={scrollToTop}>Kassi <br /> Stumb</button>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

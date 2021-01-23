@@ -22,6 +22,10 @@ hr {
   font-size: 20px;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 #resume {
   background-color: #E76F51;
   color: #eee;

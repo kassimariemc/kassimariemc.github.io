@@ -57,7 +57,7 @@ const Projects = [
     "tech": [
       "React App",
       "JSX",
-      "React Props &amp; States",
+      "React Props & States",
       "Class Components"
     ]
   },
